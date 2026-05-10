@@ -25,23 +25,6 @@ sales data to answer five key business questions:
 All analysis done in Google Colab using Python.
 No dashboarding tools — every chart generated in the notebook.
 
----
-
-## 📂 Project Structure
-
-nike-india-analytics/
-├── data/
-│   ├── nike_reviews.csv       ← 40K+ Nike customer reviews
-│   ├── nike_products.csv      ← Nike product catalogue with prices
-│   └── nike_sales.csv         ← Sales data by region and channel
-├── notebooks/
-│   └── Nike_India_Project.ipynb   ← Full analysis notebook
-├── outputs/
-│   ├── charts/                ← 14 EDA + ML charts
-│   ├── wordclouds/            ← 4 word cloud visuals
-│   ├── model_summary.txt      ← Random Forest results
-│   └── recommendations.txt   ← Data-backed action plan
-└── README.md
 
 ---
 
