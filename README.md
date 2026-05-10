@@ -28,6 +28,7 @@ No dashboarding tools — every chart generated in the notebook.
 ---
 
 ## 📂 Project Structure
+
 nike-india-analytics/
 ├── data/
 │   ├── nike_reviews.csv       ← 40K+ Nike customer reviews
