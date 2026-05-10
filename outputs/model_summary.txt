@@ -1,0 +1,33 @@
+
+NIKE INDIA PROJECT — RANDOM FOREST MODEL RESULTS
+=================================================
+
+Dataset size     : 198 reviews
+Training size    : 158 reviews (80%)
+Testing size     : 40 reviews (20%)
+
+MODEL PERFORMANCE:
+  Accuracy  : 100.0%
+  AUC Score : 1.000
+
+FEATURES USED (10 total):
+  - rating
+  - vader_compound
+  - vader_pos
+  - vader_neg
+  - word_count
+  - fit_encoded
+  - comfort_encoded
+  - recommend_encoded
+  - discounted_encoded
+  - current_price
+
+TOP 3 PREDICTORS OF CUSTOMER SATISFACTION:
+  1. vader_compound (importance: 0.395)
+  2. vader_pos (importance: 0.279)
+  3. vader_neg (importance: 0.224)
+
+WHAT THIS MEANS FOR NIKE INDIA:
+  - The model can predict satisfaction with 100.0% accuracy
+  - This means Nike can proactively identify unhappy customers
+  - Focus improvements on the top predictors listed above
